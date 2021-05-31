@@ -8,8 +8,8 @@ const ENDPOINT = "https://chat-app-backend22.herokuapp.com/";
 
 class Chat extends Component {
   static contextType = AllContext;
-  chatContainer = React.createRef();
   socket = React.createRef();
+  chatContainer = React.createRef();
 
   constructor(props) {
     super(props);
