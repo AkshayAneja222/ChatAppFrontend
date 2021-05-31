@@ -4,7 +4,7 @@ import "./Chat.css";
 import AllContext from "../context/AllContext";
 import { Redirect } from "react-router-dom";
 
-const ENDPOINT = "192.168.29.32:5000";
+const ENDPOINT = "https://chat-app-backend22.herokuapp.com/";
 
 class Chat extends Component {
   static contextType = AllContext;
